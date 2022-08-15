@@ -1,0 +1,75 @@
+/* css is a cascading styling sheet use in styling the html document 
+to give it a great look when publish with a browser */
+@media screen and (min-width: 520px) {
+    max-width: 100%;
+}
+    
+#hd{
+    background-color: rgb(112, 70, 151);
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 50px 0 0 0;
+}
+h1{
+    background-color: rgb(87, 233, 207);
+    color: purple;
+    font-size: 30px;
+    font-weight: 800;
+    justify-content: center;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding: 40px 40px 40px 40px;
+}
+
+h2#test_status{
+    display: flex;
+    margin: 0 0 0 0;
+    padding: 40px 40px 40px 40px;
+    text-align: center;
+    background: linear-gradient(0deg, rgba(0,212,255,0.7)50%,
+    rgba(120,9,121,0.7));
+    font-size: 60px;
+    color: whitesmoke;
+    
+}
+
+div#test {
+    background: linear-gradient(0deg, rgba(65,9,121,0.7)50%,
+    rgba(0,212,255,0.7));
+    border: 0;
+    padding: 40px 40px 40px 40px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    color: gold;
+    font-size: 20px;
+    border-radius: 0 0 50px 0;
+}
+
+.ch{
+    background-color: rgb(113, 15, 233);
+    color: blue;
+    border: pink 2px solid;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+button{
+    display: flex;
+    background-color: whitesmoke;
+    font-family: monospace;
+    color: blue;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    justify-content: center;
+    border-radius: 10px;
+    border: rgb(16, 211, 81) 2px solid;
+}
+
+button:hover{
+    background-color: rgb(185, 43, 190);
+}
+choices{
+    color: firebrick;
+}
